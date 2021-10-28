@@ -4,6 +4,9 @@ import { EventEmitter } from "events";
 import { cWatcherPath } from "./WatcherPath.js";
 
 export const watch = (folder) => {
+  if (!folder || typeof folder !== "string") {
+    throw new Error("folder must be a string");
+  }
   const child = spawn(cWatcherPath, [folder], {
     // stdio: "inherit",
   });

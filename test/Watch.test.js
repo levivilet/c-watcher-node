@@ -21,5 +21,8 @@ test("create watcher", async () => {
   watcher.dispose();
 });
 
-// TODO test when no folder is given
+test("no folder given", async () => {
+  expect(() => watch()).toThrowError("folder must be a string");
+});
+
 // TODO test invalid arguments
