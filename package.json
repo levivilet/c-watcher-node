@@ -27,6 +27,8 @@
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
+    "@types/tar-fs": "^2.0.1",
+    "@types/verror": "^1.10.5",
     "jest": "^27.3.1"
   }
 }
