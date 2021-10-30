@@ -14,7 +14,7 @@ import { createGunzip } from "zlib";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const VERSION = process.env.RIPGREP_VERSION || "v0.0.2";
+const VERSION = process.env.RIPGREP_VERSION || "v0.0.3";
 const BIN_PATH = join(__dirname, "../../bin");
 
 const getTarget = () => {
