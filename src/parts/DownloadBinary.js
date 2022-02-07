@@ -11,10 +11,10 @@ import { fileURLToPath } from "url";
 import VError from "verror";
 import { xdgCache } from "xdg-basedir";
 import { createGunzip } from "zlib";
+import { VERSION } from "./Version.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const VERSION = process.env.RIPGREP_VERSION || "v0.0.8";
 const BIN_PATH = join(__dirname, "../../bin");
 
 const getTarget = () => {
