@@ -1,6 +1,6 @@
 {
   "name": "c-watcher-node",
-  "version": "0.0.6",
+  "version": "0.0.0-dev",
   "description": "",
   "main": "src/index.js",
   "type": "module",
