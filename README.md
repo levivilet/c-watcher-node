@@ -15,3 +15,7 @@ const watcher = watch("/tmp/some-folder");
 
 watcher.on("all", (event) => console.log(event));
 ```
+
+## Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/levivilet/c-watcher-node)
